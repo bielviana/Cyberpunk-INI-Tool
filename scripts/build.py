@@ -1,5 +1,10 @@
 from cx_Freeze import setup, Executable
 
+files = [
+    '',
+    ''
+]
+
 target = Executable(
     script = 'main.py',
     base = 'Win32GUI',
@@ -11,6 +16,6 @@ setup(
     version = '0.0.1',
     description = '',
     author = 'Gabriel Viana',
-    # options = {'build_exe' : {'include_files' : files}},
+    options = {'build_exe' : {'include_files' : files}},
     executables = [target]
 )
