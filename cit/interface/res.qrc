@@ -1,0 +1,24 @@
+<RCC>
+  <qresource prefix="icons">
+    <file>assets/icons_black/maximize.svg</file>
+    <file>assets/icons_purple/maximize.svg</file>
+    <file>assets/icons_white/maximize.svg</file>
+    <file>assets/icon.ico</file>
+    <file>assets/icon.png</file>
+    <file>assets/icons_black/file.svg</file>
+    <file>assets/icons_purple/file.svg</file>
+    <file>assets/icons_white/file.svg</file>
+    <file>assets/icons_black/close.svg</file>
+    <file>assets/icons_black/dark-mode.svg</file>
+    <file>assets/icons_black/light-mode.svg</file>
+    <file>assets/icons_black/minimize.svg</file>
+    <file>assets/icons_purple/close.svg</file>
+    <file>assets/icons_purple/dark-mode.svg</file>
+    <file>assets/icons_purple/light-mode.svg</file>
+    <file>assets/icons_purple/minimize.svg</file>
+    <file>assets/icons_white/close.svg</file>
+    <file>assets/icons_white/dark-mode.svg</file>
+    <file>assets/icons_white/light-mode.svg</file>
+    <file>assets/icons_white/minimize.svg</file>
+  </qresource>
+</RCC>
