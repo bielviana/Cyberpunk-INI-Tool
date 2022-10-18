@@ -33,7 +33,7 @@ In the future I fix the standard version, maybe using c# because generating bina
 4. Navegue até a pasta **`citlite`**
 
 5. Para rodar o programa:
-  5.1. asasd
+  * asasd
 
 
 ## Links
