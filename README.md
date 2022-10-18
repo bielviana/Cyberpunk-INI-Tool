@@ -6,7 +6,7 @@
 
 Simple script to separate sessions from INI files into separate files.
 
-## Why did I?
+## Why?
 
 Apparently the way Cyberpunk 2077 works with mods INI files is weird, basically the game doesn't read your entire INI file, it only reads the top of it, so if you have a huge INI with lots of sessions and settings, a huge part of those settings will be ignored by the game, so if you already have one of those huge INI's, CIT will separate all the sessions of your file into several different files, one for each session. It's also useful for you who are a modder and will still make your INI, because it's much more practical to just type everything in a single file and then run a script to separate them.
 
