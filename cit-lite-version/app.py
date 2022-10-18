@@ -28,7 +28,7 @@ class CITLite():
             print('Task started!\n')
 
             print(f'Reading file {ini_name}...\n\n')
-            cp = ConfigParser()
+            cp = ConfigParser(strict=False)
             cp.read(self.ini_file)
 
             print('Getting the session and key names...')
@@ -36,7 +36,7 @@ class CITLite():
             for x in range(len(cp.sections())):
 
                 print(f'\n\nSession {x}: [{cp.sections()[x]}]\n')
-                ini_data = ConfigParser()
+                ini_data = ConfigParser(strict=False)
                 ini_data[cp.sections()[x]] = {}
                 key_names = [op for op in cp[cp.sections()[x]]]
 
@@ -46,7 +46,7 @@ class CITLite():
                     ini_data[cp.sections()[x]][key_names[y]] = cp[cp.sections()[x]][key_names[y]]
             
                 print(f'\nWriting a new ini file ({ini_name}_[{str(x)}].ini)...\n')
-                with open(path.join(ini_path, f'{ini_name}_[{str(x)}].ini'), 'w') as config_file:
+                with open(path.join(ini_path, f'{ini_name}_[{cp.sections()[x].replace("/", "-")}].ini'), 'w') as config_file:
                     ini_data.write(config_file)
                 print(f'File ({ini_name}_[{str(x)}].ini) saved!')
                 file_count = file_count + 1
