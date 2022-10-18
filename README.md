@@ -14,7 +14,7 @@ Apparently the way Cyberpunk 2077 works with mods INI files is weird, basically 
 
 I'll pass the instructions only for windows, because I don't imagine anyone is playing Cyberpunk 2077 on linux, but if for some reason this is your case, the commands are basically the same.
 
-### * Standard version
+### >> Standard version
 
 The default version isn't working properly, I need to change the way it works with ini files and some silly mistakes, but I don't have time to fix it now.
 
@@ -22,7 +22,7 @@ But don't worry, the lite version is uglier visually speaking but it has the sam
 
 In the future I fix the standard version, maybe using c# because generating binary file in python when using some graphic libraries is a huge problem, this 8mb file from the lite version became a 700mb folder in the standard version.
 
-### * Lite version
+### >> Lite version
 
 1. Open the power shell in the **`cit-lite`** folder and create a virtual environment.
    
